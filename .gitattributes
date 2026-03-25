@@ -1,0 +1,27 @@
+# =========================
+# Line endings
+# =========================
+* text=auto
+
+# Python files
+*.py text
+
+# Jupyter notebooks
+*.ipynb text
+
+# =========================
+# Prevent diff noise in notebooks (optional but recommended)
+# =========================
+*.ipynb diff=ipynb
+
+# =========================
+# Binary files
+# =========================
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# Model files
+*.joblib binary
+*.pkl binary

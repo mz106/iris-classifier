@@ -1,0 +1,53 @@
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Model files (optional)
+# =========================
+# Uncomment if you DO NOT want to track models
+# models/
+# *.joblib
+
+# =========================
+# Outputs (optional)
+# =========================
+# Uncomment if outputs are large or temporary
+# outputs/
